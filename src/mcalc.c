@@ -124,6 +124,7 @@ void read_equ(const char *equ, struct EquationToken tokens[]) {
     }
 }
 
+
 // evaluates EquationToken array and returns integer value
 int evaluate(const char *equation) {
     struct EquationToken tokens[15];
@@ -155,3 +156,4 @@ int evaluate(const char *equation) {
     return tokens[i - 1].value;
 
 }
+
